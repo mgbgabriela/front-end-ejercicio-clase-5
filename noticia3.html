@@ -16,19 +16,89 @@
     <div class="conteiner-fluid">
       <div class="row">
         <div class="col">
-          <h2>
+          <h1>Se esperan fuertes nevadas en varias provincias del país</h1>
+          <h5>
             Desde el norte a la patagonia, hay alerta en 7 provincias donde se
             anticipan fuertes nevadas
-          </h2>
+          </h5>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-3 col-xs-12">
-          <img
-            class="img-fluid"
-            src="https://www.infobae.com/new-resizer/X5VafFyfchO20ezpOAOMK8vPlMw=/768x432/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/LEGO6NEFYJD2RNBEACHWJSS2CQ.jpg"
-            alt="Ciudad nevada"
-          />
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://www.infobae.com/new-resizer/X5VafFyfchO20ezpOAOMK8vPlMw=/768x432/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/LEGO6NEFYJD2RNBEACHWJSS2CQ.jpg"
+                  class="d-block w-100"
+                  alt="Ciudad nevada"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://www.infobae.com/new-resizer/pdUV-Pa4y7-JLkfnERrVbTcwADM=/768x432/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/RW2VO7SRC5A35ALBVO43XCUBJE.jpg"
+                  class="d-block w-100"
+                  alt="Corte en paso Cristo Redentor"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://www.telam.com.ar/thumbs/bluesteel/advf/imagenes/2022/07/62c579d8066c9_900.jpg"
+                  alt="Temporal en Bariloche"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
         <div class="col-lg-9 col-xs-12">
           <p>
@@ -58,6 +128,28 @@
             altura.
           </p>
         </div>
+      </div>
+      <div class="row">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Deja tu comentario</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <button type="button" class="btn btn-success">Enviar comentario</button>
       </div>
     </div>
     <script
